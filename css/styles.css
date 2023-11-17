@@ -285,7 +285,6 @@ footer {
 }
 
 .logo-b {
-  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -294,6 +293,7 @@ footer {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .logo-bot {
