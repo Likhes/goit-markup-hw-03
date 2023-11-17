@@ -10,6 +10,20 @@
   color: #4d5ae5;
   margin-right: 76px;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 span {
   color: #2e2f42;
 }
@@ -165,17 +179,6 @@ h1 {
   padding: 120px 0;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
-
 .about {
   display: flex;
   gap: 24px;
@@ -262,11 +265,11 @@ h1 {
   row-gap: 48px;
 }
 
-.list-item{
-width: calc((100% - 48px) / 3);
+.list-item {
+  width: calc((100% - 48px) / 3);
 }
 
-.apps{
+.apps {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
