@@ -68,7 +68,7 @@ img {
   flex-direction: row;
 }
 
-.navi {
+.nav-content {
   display: flex;
   align-items: center;
 }
