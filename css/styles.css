@@ -53,6 +53,11 @@ ol{
 
 /*          Header              */
 
+header{
+  display: flex;
+  flex-direction: row;
+}
+
 .navigation .link {
   color: #2e2f42;
   font-size: 16px;
@@ -118,6 +123,10 @@ h1 {
 
 /* Section 2 */
 
+.about{
+  display: flex;
+}
+
 .our-act {
   font-weight: 500;
   font-size: 20px;
@@ -133,6 +142,12 @@ h1 {
 }
 
 /* Section 3, 4 */
+
+.list{
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 24px;
+}
 
 .team {
   background-color: #f4f4fd;
